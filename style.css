@@ -1,0 +1,7 @@
+@font-face{
+    font-family: roboto;
+    src: url(./fonts/Roboto-VariableFont_wdth\,wght.ttf);
+}
+body{
+    font-family: roboto;
+}
