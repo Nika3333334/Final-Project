@@ -1,0 +1,215 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #000;
+}
+
+footer {
+    background: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1;
+    padding: 60px 75px 40px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+
+footer p {
+    margin: 0;
+}
+
+footer ul {
+    display: block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer ul li {
+    display: block;
+    white-space: nowrap;
+}
+
+
+footer .bolo {
+    display: grid;
+    grid-template-columns: 1fr 1.3fr 1.3fr 1.4fr 1fr;
+    column-gap: 20px;
+    align-items: start;
+}
+
+footer .logo1 img {
+    width: 150px;
+    height: auto;
+    display: block;
+}
+
+
+footer .seqcia1 > p,
+footer .company > p,
+footer .contact > p:first-child,
+footer .follow > p {
+    margin-bottom: 30px;
+}
+
+
+footer .follow a {
+    display: block;
+}
+
+
+footer hr.gamyofi {
+    grid-column: 1 / -1;
+    width: 100%;
+    border: 0;
+    border-top: 1px solid #333;
+    margin: 0;
+}
+
+footer .bolo > hr.gamyofi:first-of-type {
+    margin-top: 90px;
+}
+
+
+footer .bolo > .row {
+    grid-column: 1 / -1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 28px 0;
+}
+
+footer .bolo > .row .col {
+    flex: 1;
+}
+
+
+footer .payment {
+    grid-column: 1 / -1;
+    text-align: center;
+    padding: 55px 0 45px;
+}
+
+footer .payment p {
+    margin-bottom: 40px;
+}
+
+footer .payment img {
+    width: 55px;
+    height: 42px;
+    object-fit: contain;
+    margin: 0 20px;
+    vertical-align: middle;
+}
+
+
+footer .bolo > p {
+    grid-column: 1 / -1;
+    text-align: center;
+    border-top: 1px solid #333;
+    padding-top: 30px;
+}
+
+
+
+
+/* FOOTER */
+
+.site-footer {
+  background-color: #111;
+  padding: 60px 50px 30px 50px;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  color: white;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  padding-bottom: 50px;
+}
+
+.footer-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-col h4 {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.footer-col a,
+.footer-col p {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  margin-bottom: 10px;
+  opacity: 0.8;
+}
+
+.footer-col a:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
+
+.footer-policies {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  padding: 25px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.25);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.footer-policies a {
+  color: white;
+  text-decoration: none;
+  font-size: 13px;
+  opacity: 0.85;
+}
+
+.footer-policies a:hover {
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 35px;
+}
+
+.payment-title {
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.payment-icons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 30px;
+}
+
+.copyright {
+  font-size: 12px;
+  opacity: 0.7;
+  margin-top: 20px;
+}
+
+.mkrtali {
+  opacity: 0.3;
+}
+
